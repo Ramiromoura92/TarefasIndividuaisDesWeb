@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+}
+
+.tree-container {
+    position: relative;
+}
+
+.tree {
+    width: 300px;
+}
+
+.apple {
+    position: absolute;
+    width: 30px;
+    cursor: pointer;
+}
